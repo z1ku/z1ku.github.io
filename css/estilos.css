@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border-bottom: 3px solid rgb(24, 133, 184);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+}
+
+#logo{
+    width: 5rem;
+    margin: 0.5rem 0rem;
+}
+
+.enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.enlaces a{
+    color: rgb(24, 133, 184);
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0.4rem 1.5rem;
+}
+
+.login{
+    margin: 0.3rem 0rem;
+}
+
+.usuario{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+
+.password{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+
+.login label{
+    margin-right: 1rem;
+}
+
+.login button{
+    width: 100%;
+}
