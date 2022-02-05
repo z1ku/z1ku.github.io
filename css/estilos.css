@@ -2,18 +2,20 @@ body{
     margin: 0%;
 }
 
-nav{
+header{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: whitesmoke;
-    border-bottom: 3px solid rgb(24, 133, 184);
+    background-color: rgb(7, 0, 26);
+    border-bottom: 3px solid rgb(228, 15, 61);
     position: fixed;
     width: 100%;
     z-index: 1;
     top: 0%;
     left: 0%;
+    -webkit-box-shadow: 1px 4px 5px -2px #000000; 
+    box-shadow: 1px 4px 5px -2px #000000;
 }
 
 #logo{
@@ -21,17 +23,17 @@ nav{
     margin: 0.5rem 0rem;
 }
 
-.enlaces{
+nav{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.enlaces a{
-    color: rgb(24, 133, 184);
+nav a{
+    color: white;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 0.4rem 1.5rem;
 }
 
@@ -53,8 +55,51 @@ nav{
 
 .login label{
     margin-right: 1rem;
+    color: white;
 }
 
 .login button{
     width: 100%;
 }
+
+main{
+    width: 85%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+h2{
+    background-color: rgb(7, 0, 26);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+section.emperadores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.emperadores h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+section.emperadores img{
+    height: 340px;
+    object-fit: cover;
+    width: 100%;
+}
+
+section.emperadores div{
+    background-color: black;
+    width: 15%;
+    min-width: 250px;
+}
+
+
+
+
