@@ -8,7 +8,7 @@ body{
     src: url(../fonts/Roman\ SD.ttf);
 }
 
-h2,h3,a,th{
+h2,h3,a,th,summary{
     font-family: "roman";
 }
 
@@ -163,6 +163,44 @@ tbody>tr>td:nth-child(2){
     font-style: italic;
 }
 
+figure.augusto{
+    float: right;
+    top: 0%;
+    right: 0%;
+    background-color: rgb(245, 245, 245);
+    padding: 0.3rem;
+    border: 1px solid rgba(34, 34, 34, 0.884);
+    margin-top: 0%;
+    -webkit-box-shadow: -4px 6px 7px -1px #000000; 
+    box-shadow: -4px 6px 7px -1px #000000;
+}
 
+figure.augusto figcaption{
+    font-style: italic;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
 
+section.seccionAugusto h3,summary{
+    color: rgb(228, 15, 61);
+}
+
+details{
+    margin: 0.5rem 0rem;
+}
+
+footer{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(7, 0, 26);
+}
+
+footer a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
 
