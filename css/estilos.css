@@ -1,5 +1,15 @@
 body{
     margin: 0%;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: "roman";
+    src: url(../fonts/Roman\ SD.ttf);
+}
+
+h2,h3,a,th{
+    font-family: "roman";
 }
 
 header{
@@ -60,6 +70,7 @@ nav a{
 
 .login button{
     width: 100%;
+    font: inherit;
 }
 
 main{
@@ -92,12 +103,64 @@ section.emperadores img{
     height: 340px;
     object-fit: cover;
     width: 100%;
+    display: block;
 }
 
 section.emperadores div{
+    width: 16%;
+    min-width: 230px;
+}
+
+section.tabla{
+    overflow-x:auto;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 2px solid black;
+}
+
+td img{
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    height: 320px;
+}
+
+td{
+    width: 16%;
+}
+
+tbody>tr>td:last-child{
+    padding: 0%;
+}
+
+tbody>tr>td:nth-last-child(n+2){
+    padding: 1rem;
+    text-align: center;
+}
+
+th{
+    color: white;
     background-color: black;
-    width: 15%;
-    min-width: 250px;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+tbody>tr:nth-child(2n){
+    background-color: rgb(255, 112, 112);
+}
+
+tbody>tr>td:first-child{
+    font-weight: bolder;
+    font-family: "roman";
+}
+
+tbody>tr>td:nth-child(2){
+    font-style: italic;
 }
 
 
