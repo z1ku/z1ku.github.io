@@ -205,3 +205,33 @@ footer a{
     text-decoration: none;
 }
 
+#tablaMovil{
+    display: none;
+}
+
+#tablaMovil tr{
+    background-color: white;
+    text-align: center;
+    color: rgb(228, 15, 61);
+}
+
+#tablaMovil li{
+    list-style: none;
+    margin: 0.3rem;
+}
+
+#tablaMovil img{
+    max-height: 30vh;
+    vertical-align: bottom;
+    object-fit: none;
+}
+
+@media (max-width:900px){
+    #tablaPC{
+        display: none;
+    }
+
+    #tablaMovil{
+        display: table;
+    }
+}
